@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+.wCard{
+    background-color:rgb(51, 80, 80);
+    padding:20px;
+    border-radius: 25px;
+    max-width: 430px;
+    width: 100%;
+    margin: 1em;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+button{
+    transition: 0.2s ease-in-out;
+    outline: none;
+    cursor: pointer;
+    color:aliceblue;
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    margin:8px;
+    height: 50px;
+    width: 50px;
+}
+input.search-bar{
+    color: black;
+    border: none;
+    outline: none;
+    width: calc(100%-80px);
+    padding: 10px 7px;
+    border-radius: 5%;
+    font-size: 18px;
+
+
+}
+
+.geoLoc:hover{
+    background-color: aqua;
+    color: black;
+}
+div{
+    padding:10px;
+}
+.geoLoc{
+    background-color: rgb(62, 6, 125);
+    color: yellow;
+    width: 50%;
+    border-radius: 15%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor:context-menu;
+}
+.icon:hover{
+    transform: translateX(70%);
+    transition-delay: 2s;
+    transition-duration: 5s;
+}
+.description{
+    text-transform: capitalize;
+}
+
