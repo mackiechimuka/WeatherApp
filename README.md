@@ -5,7 +5,7 @@
 This is a weather app that shows weather for one day. You can search any city in the world you want to get weather details of the area and you can also use geo location to get weather of your location.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://www.loom.com/share/c5b6100a29154498aaf4b7f35fd9343e?sid=976d6b72-ad9a-4c29-93fa-482d4154bbad)
 
 # Development Environment
 
